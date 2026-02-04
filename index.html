@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LightSpeed Basketball Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+
+        <div class="alert">
+            <div class="container">
+                <p class="alert-text">Free Shipping On All Orders Starting At 99.- Baht</p>
+            </div>
+        </div>
+
+        <div class="header-top" data-header>
+            <div class="container">
+                <button class="nav-open-btn" aria-label="Open Order" data-nav-toggler>
+                    <span class="line line-1"></span>
+                    <span class="line line-2"></span>
+                    <span class="line line-3"></span>
+                </button>
+
+                <div class="input-wrapper">
+                    <input type="search" class="search-field" name="search" placeholder="search product">
+                    <button class="search-submit" aria-label="true">
+                        <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                </div>
+
+                <a href="#" class="logo">
+                    <img src="image/logo band.png" alt="LightSpeed Basketball Shop logo" width="179" height="176">
+                </a>
+
+                <div class="header-action">
+                    <button class="header-action-btn" aria-label="User">
+                        <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="header-action-btn" aria-label="favorite item">
+                        <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                        <span class="btn-badge">0</span>
+                    </button>
+
+                    <button class="header-action-btn" aria-label="cart item">
+                        <data value="" class="btn-text">0.00 Baht</data>
+                        <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                        <span class="btn-badge">0</span>
+                    </button>
+                </div>
+
+                <nav class="navbar">
+                    <ul class="navbar-list">
+
+                        <li>
+                            <a href="#" class="navbar-link has-after">Home</a>
+                        </li>
+                        <li>
+                            <a href="#" class="navbar-link has-after">Collection</a>
+                        </li>
+                        <li>
+                            <a href="#" class="navbar-link has-after">Shop</a>
+                        </li>
+                        <li>
+                            <a href="#" class="navbar-link has-after">Offer</a>
+                        </li>
+                        <li>
+                            <a href="#" class="navbar-link has-after">Contract</a>
+                        </li>
+
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="sidebar">
+        <div class="mobile-navbar" data-navbar>
+
+            <div class="wrapper">
+
+                <a href="#" class="logo">
+                    <img src="image/logo band.png" alt="LightSpeed Basketball Shop logo" width="129" height="26">
+                </a>
+
+                <button class="nav-class-btn" aria-label="close-menu" data-nav-toggler>
+                    <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                </button>
+            </div>
+
+            <ul class="navbar-list">
+                <li>
+                    <a href="#" class="navbar-link" data-nav-link>Home</a>
+                </li>
+                <li>
+                    <a href="#" class="navbar-link" data-nav-link>Collection</a>
+                </li>
+                <li>
+                    <a href="#" class="navbar-link" data-nav-link>Shop</a>
+                </li>
+                <li>
+                    <a href="#" class="navbar-link" data-nav-link>Offer</a>
+                </li>
+                <li>
+                    <a href="#" class="navbar-link" data-nav-link>Contract</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+
+    <main>
+        <article>
+
+            <section class="section hero" id="home" aria-label="hero" data-section>
+                <div class="container">
+                    <div class="hero-slider">
+                        <button class="slide-btn prev">❮</button>
+                        <ul class="hero-track">
+
+                        <li class="hero-slide">
+                            <div class="hero-card has-bg-image" style="background-image: url(image/banner1.png);">
+                                <div class="card-content">
+                                    <h1 class="h1 hero-title" style="color:#fbbf24;">
+                                        Get The Best Hoop Shoe Here <br> At LightSpeed Basketball
+                                    </h1>
+                                    <p class="hero-text" style="color:#fbbf24;">
+                                        We Guarantee The Best Hoop Shoe On The Market
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Shop Now</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="hero-slide">
+                            <div class="hero-card has-bg-image" style="background-image: url(image/banner2.png);">
+                                <div class="card-content">
+                                    <h1 class="h1 hero-title" style="color:#fbbf24;">
+                                        Elevate Your Style With The BEST Fit
+                                    </h1>
+                                    <p class="hero-text" style="color:#fbbf24;">
+                                    Crafted From High-Grade Materials
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Shop Now</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="hero-slide">
+                            <div class="hero-card has-bg-image" style="background-image: url(image/banner3.png);">
+                                <div class="card-content">
+                                    <h1 class="h1 hero-title" style="color:#fbbf24;">
+                                        Want The Best Basketballs?
+                                    </h1>
+                                    <p class="hero-text" style="color:#fbbf24;">
+                                        Crafted From High-Grade Materials
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Shop Now</a>
+                                </div>
+                            </div>
+                        </li>
+                        </ul>
+                        <button class="slide-btn next">❯</button>
+
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="section collection" id="collection" aria-label="collection">
+                <div class="container">
+                    <ul class="collection-list">
+
+                        <li>
+                            <div class="collection-card hasbefore hover:shine">
+                                <div class="full-page">
+
+                                    <h2 class="h2 card-title">Shoe Collection</h2>
+
+                                    <p class="card-text">Want The Best Shoes?</p>
+
+                                    <a href="#" class="btn-link">
+                                        <span class="span">Shop Now</span>
+                                        <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                                    </a>
+                                </div>
+                                <div class="has-bg-image" style="background-image: url(image/shoe\ collection\ banner.png);"></div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="collection-card hasbefore hover:shine">
+                                <div class="full-page">
+
+                                    <h2 class="h2 card-title">What is New?</h2>
+
+                                    <p class="card-text">We Got The Newest Items Here</p>
+
+                                    <a href="#" class="btn-link">
+                                        <span class="span">Get Them Now</span>
+                                        <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                                    </a>
+                                </div>
+                                <div class="has-bg-image" style="background-image: url(image/what\'s\ new\ banner.png);"></div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="collection-card hasbefore hover:shine">
+                                <div class="full-page">
+
+                                    <h2 class="h2 card-title">Basketballs</h2>
+
+                                    <p class="card-text">Starting at 200.- Baht</p>
+
+                                    <a href="#" class="btn-link">
+                                        <span class="span">Discover now</span>
+                                        <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                                    </a>
+                                </div>
+                                <div class="has-bg-image" style="background-image: url(image/basketball\ banner.png);"></div>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </section>
+
+            <section class="section shop" id="shop" aria-label="shop" data-section>
+                <div class="container">
+
+                    <div class="title-wrapper">
+                        <h2 class="h2 section-title">Our Best Seller</h2>
+
+                        <a href="#" class="btn-link">
+                            <span class="span">Shop All Products</span>
+                            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                        </a>
+                    </div>
+
+                    <ul class="has-scrollbar">
+
+                        <li class="scrollbar-item">
+                            <div class="shop-card">
+
+                                <div class="card-banner img-holder" style="--width: 540; --height:720;">
+
+                                    <img src="image/product1.webp" class="img-cover" width="540" height="540" loading="lazy">
+
+                                    <span class="badge" aria-label="20% Off">-20%</span>
+
+                                    <div class="card-actions">
+
+                                        <button class="action-btn cart-btn" data-id="shoe-1" aria-label="add to cart">
+                                            <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                        <button class="action-btn favorite-btn" data-id="product-1" aria-label="add to wishlist">
+                                            <ion-icon name="star-outline"></ion-icon>
+                                        </button>
+
+                                        <button class="action-btn" aria-label="add to Compare">
+                                            <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </div>
+                                </div>
+
+                                <div class="card-content">
+                                    <div class="price">
+                                        <del class="del">4,700.- Baht</del>
+                                        <span class="span">3,760.- Baht</span>
+                                    </div>
+                                    <h3>
+                                        <a href="#" class="card-title">Ja 3 "Light Show" EP</a>
+                                    </h3>
+
+                                    <div class="card-rating">
+                                        <div class="rating-wrapper" aria-label="5 Star rating">
+                                            <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                                        </div>
+                                        <p class="rating-text">64,903 reviews</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="scrollbar-item">
+                            <div class="shop-card">
+
+                                <div class="card-banner img-holder" style="--width: 540; --height:720;">
+
+                                    <img src="image/product2" class="img-cover" width="540" height="540" loading="lazy">
+
+                                    <span class="badge" aria-label="20% Off">-30%</span>
+
+                                    <div class="card-actions">
+
+                                        <button class="action-btn cart-btn" data-id="shoe-2" aria-label="add to cart">
+                                            <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                        <button class="action-btn favorite-btn" data-id="product-2" aria-label="add to wishlist">
+                                            <ion-icon name="star-outline"></ion-icon>
+                                        </button>
+
+                                        <button class="action-btn" aria-label="add to Compare">
+                                            <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </div>
+                                </div>
+
+                                <div class="card-content">
+                                    <div class="price">
+                                        <del class="del">5,600.- Baht</del>
+                                        <span class="span">3,920.- Baht</span>
+                                    </div>
+                                    <h3>
+                                        <a href="#" class="card-title">MB.04 Phoenix</a>
+                                    </h3>
+
+                                    <div class="card-rating">
+                                        <div class="rating-wrapper" aria-label="5 Star rating">
+                                            <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                                        </div>
+                                        <p class="rating-text">89,903 reviews</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="scrollbar-item">
+                            <div class="shop-card">
+
+                                <div class="card-banner img-holder" style="--width: 540; --height:720;">
+
+                                    <img src="image/product3" class="img-cover" width="540" height="540" loading="lazy">
+
+                                    <span class="badge" aria-label="20% Off">-40%</span>
+
+                                    <div class="card-actions">
+
+                                        <button class="action-btn cart-btn" data-id="shoe-3" aria-label="add to cart">
+                                            <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                        <button class="action-btn favorite-btn" data-id="product-3" aria-label="add to wishlist">
+                                            <ion-icon name="star-outline"></ion-icon>
+                                        </button>
+
+                                        <button class="action-btn" aria-label="add to Compare">
+                                            <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </div>
+                                </div>
+
+                                <div class="card-content">
+                                    <div class="price">
+                                        <del class="del">6,900.- Baht</del>
+                                        <span class="span">4,139.- Baht</span>
+                                    </div>
+                                    <h3>
+                                        <a href="#" class="card-title">Nike G.T. Cut 3 EP</a>
+                                    </h3>
+
+                                    <div class="card-rating">
+                                        <div class="rating-wrapper" aria-label="5 Star rating">
+                                            <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                                        </div>
+                                        <p class="rating-text">25,903 reviews</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="scrollbar-item">
+                            <div class="shop-card">
+
+                                <div class="card-banner img-holder" style="--width: 540; --height:720;">
+
+                                    <img src="image/product4" class="img-cover" width="540" height="540" loading="lazy">
+
+                                    <span class="badge" aria-label="20% Off">-50%</span>
+
+                                    <div class="card-actions">
+
+                                        <button class="action-btn cart-btn" data-id="shoe-4" aria-label="add to cart">
+                                            <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                        <button class="action-btn favorite-btn" data-id="product-4" aria-label="add to wishlist">
+                                            <ion-icon name="star-outline"></ion-icon>
+                                        </button>
+
+                                        <button class="action-btn" aria-label="add to Compare">
+                                            <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </div>
+                                </div>
+
+                                <div class="card-content">
+                                    <div class="price">
+                                        <del class="del">5,990.- Baht</del>
+                                        <span class="span">2,990.- Baht</span>
+                                    </div>
+                                    <h3>
+                                        <a href="#" class="card-title">UNDER ARMOUR Curry 12 'Dub Nation'</a>
+                                    </h3>
+
+                                    <div class="card-rating">
+                                        <div class="rating-wrapper" aria-label="5 Star rating">
+                                            <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                                        </div>
+                                        <p class="rating-text">64,903 reviews</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="scrollbar-item">
+                            <div class="shop-card">
+
+                                <div class="card-banner img-holder" style="--width: 540; --height:720;">
+
+                                    <img src="image/product5" class="img-cover" width="540" height="540" loading="lazy">
+
+                                    <span class="badge" aria-label="20% Off">-20%</span>
+
+                                    <div class="card-actions">
+
+                                        <button class="action-btn cart-btn" data-id="ball-1" aria-label="add to cart">
+                                            <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                        <button class="action-btn favorite-btn" data-id="product-5" aria-label="add to wishlist">
+                                            <ion-icon name="star-outline"></ion-icon>
+                                        </button>
+
+                                        <button class="action-btn" aria-label="add to Compare">
+                                            <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </div>
+                                </div>
+
+                                <div class="card-content">
+                                    <div class="price">
+                                        <del class="del">1,690.- Baht</del>
+                                        <span class="span">1,352.- Baht</span>
+                                    </div>
+                                    <h3>
+                                        <a href="#" class="card-title">WILSON NBA Authentic Indoor/Outdoor Basketball Ball</a>
+                                    </h3>
+
+                                    <div class="card-rating">
+                                        <div class="rating-wrapper" aria-label="5 Star rating">
+                                            <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                                        </div>
+                                        <p class="rating-text">89,903 reviews</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="scrollbar-item">
+                            <div class="shop-card">
+
+                                <div class="card-banner img-holder" style="--width: 540; --height:720;">
+
+                                    <img src="image/product6.png" class="img-cover" width="540" height="540" loading="lazy">
+
+                                    <span class="badge" aria-label="20% Off">-30%</span>
+
+                                    <div class="card-actions">
+
+                                        <button class="action-btn cart-btn" data-id="ball-2" aria-label="add to cart">
+                                            <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                        <button class="action-btn favorite-btn" data-id="product-6" aria-label="add to wishlist">
+                                            <ion-icon name="star-outline"></ion-icon>
+                                        </button>
+
+                                        <button class="action-btn" aria-label="add to Compare">
+                                            <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </div>
+                                </div>
+
+                                <div class="card-content">
+                                    <div class="price">
+                                        <del class="del">1,990.- Baht</del>
+                                        <span class="span">1,393.- Baht</span>
+                                    </div>
+                                    <h3>
+                                        <a href="#" class="card-title">BG5000 Molten Basketball</a>
+                                    </h3>
+
+                                    <div class="card-rating">
+                                        <div class="rating-wrapper" aria-label="5 Star rating">
+                                            <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                                        </div>
+                                        <p class="rating-text">25,903 reviews</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+        </article>
+    </main>
+    
+<script src="script.js" defer></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+<footer>
+    <h1 class="specialOffer">Special Offer</h1>
+    <h2 class="discount">30% off for new Customers</h2>
+</footer>
+</html>
